@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Office Trivia</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="body">
+        <div class="title">
+            <h1>The Office Trivia!</h1>
+        </div>
+        <div id="timer"><h2>Time Remaining: </h2><span id="countdown-space"></span>
+        </div><br>
+        <div class="score-space">You scored: </div>
+
+        <div class="quizForm">
+            <form name="quiz" onsubmit="return quizForm()">
+                <div class="question">
+                    <h2>What is Dwight Schrute's middle name?</h2>
+                    <input type="radio" name="1" value="a">a. Kurt<br>
+                    <input type="radio" name="1" value="b">b. Danger <br>
+                    <input type="radio" name="1" value="c">c. Gary <br>
+                    <input type="radio" name="1" value="d">d. Mose<br>
+                </div>
+                <div class="question">
+                    <h2>Who is Pam and Jim's first child?</h2>
+                    <input type="radio" name="2" value="a">a. PeePee<br>
+                    <input type="radio" name="2" value="b">b. PeePa <br>
+                    <input type="radio" name="2" value="c">c. Cece <br>
+                    <input type="radio" name="2" value="d">d. Angela<br>
+                </div>
+                <div class="question">
+                    <h2>Which city in Pennsylvania is Dunder Mifflin located?</h2>
+                    <input type="radio" name="3" value="a">a. Philadelphia<br>
+                    <input type="radio" name="3" value="b">b. Scranton<br>
+                    <input type="radio" name="3" value="c">c. Gotham<br>
+                    <input type="radio" name="3" value="d">d. Pawnee<br>
+                </div>
+                <div class="question">
+                    <h2>Pam, Oscar, and Toby are all a part of which group?</h2>
+                    <input type="radio" name="4" value="a">a. Scrantonicity <br>
+                    <input type="radio" name="4" value="b">b. Finer Things Club<br>
+                    <input type="radio" name="4" value="c">c. Party Planning Committee<br>
+                    <input type="radio" name="4" value="d">d. The Fist<br>
+                </div>
+                <div class="question">
+                    <h2>How many vasectomies did Michael Scott have while dating Jan?</h2>
+                    <input type="radio" name="5" value="a">a. 0<br>
+                    <input type="radio" name="5" value="b">b. 1<br>
+                    <input type="radio" name="5" value="c">c. 2<br>
+                    <input type="radio" name="5" value="d">d. 3<br>
+                </div>
+                <br>
+                <button id="submit">Submit Answers</button>
+            </form>
+        </div>
+    </div>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

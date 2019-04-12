@@ -1,0 +1,25 @@
+body, html {
+    text-align: center;
+    background-image: url(../images/background.jpeg);
+}
+
+.body {
+    background-color: #F7ECF5;
+    margin: 0px 200px 0px 200px;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.question {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.timer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.score-space {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
