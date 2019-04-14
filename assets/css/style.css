@@ -18,8 +18,13 @@ body, html {
 
 .timer{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 .score-space {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#countdown-space {
     font-size: 20px;
 }
